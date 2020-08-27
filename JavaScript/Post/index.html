@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir usuario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <main class="container">
+        <form id="formJson">
+            <div class="form-group">
+              <label for="Inombre">Nombre</label>
+              <input type="text" class="form-control" id="iNombre">
+             
+            </div>
+            <div class="form-group">
+              <label for="iApellido">Apellido</label>
+              <input type="text" class="form-control" id="iApellido">
+            </div>
+
+            <div class="form-group">
+                <label for="iDocumento">Documento</label>
+                <input type="number" class="form-control" id="iDocumento">
+              </div>   
+
+            <button type="submit" id="btnEnviar" class="btn btn-primary">Enviar</button>
+          </form>
+    </main>
+    
+
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
